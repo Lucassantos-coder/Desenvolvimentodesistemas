@@ -1,0 +1,9 @@
+package Classes;
+
+public class Carro {
+	private String Marca;
+	private String Ano;
+	private String Modelo;
+	private String Placa;
+	private Double Valor;
+}

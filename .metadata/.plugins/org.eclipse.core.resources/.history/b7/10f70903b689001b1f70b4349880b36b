@@ -1,0 +1,17 @@
+package ativ_fix_comp_lucasdesousasantos;
+
+public class Fabrica {
+
+	public static void main(String[] args) {
+		Pessoa pessoa = new Pessoa();
+		pessoa.getEndereco().setBairro("Jaqueline");
+		pessoa.getEndereco().setCep("242");
+		pessoa.getEndereco().setRua("242");
+		pessoa.getEndereco().setCidade("242");
+		pessoa.getEndereco().setComplemento("242");
+		
+		System.out.println(pessoa.getEndereco());
+
+	}
+
+}

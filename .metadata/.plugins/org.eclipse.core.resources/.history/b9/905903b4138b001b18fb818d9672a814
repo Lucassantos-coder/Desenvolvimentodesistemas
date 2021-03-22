@@ -1,0 +1,54 @@
+package ativ_fix_comp_lucasdesousasantos;
+
+public class Pessoa {
+	private String Nome;
+	private String Telefone;
+	private String Rg;
+	private String Cpf;
+	private String Estadocivil;
+	private String Sexo;
+	private Endereco endereco;
+	
+	public String getNome() {
+		return Nome;
+	}
+	public String getTelefone() {
+		return Telefone;
+	}
+	public String getRg() {
+		return Rg;
+	}
+	public String getCpf() {
+		return Cpf;
+	}
+	public String getEstadocivil() {
+		return Estadocivil;
+	}
+	public String getSexo() {
+		return Sexo;
+	}
+	public Endereco getEndereco() {
+		return endereco;
+	}
+	public void setNome(String Nome) {
+		this.Nome = Nome;
+	}
+	public void setTelefone(String Telefone) {
+		this.Telefone = Telefone;
+	}
+	public void setRg(String Rg) {
+		this.Rg = Rg;
+	}
+	public void setCpf(String Cpf) {
+		this.Cpf = Cpf;
+	}
+	public void setEstadocivil(String Estadocivil) {
+		this.Estadocivil = Estadocivil;
+	}
+	public void setSexo(String Sexo) {
+		this.Sexo = Sexo;
+	}
+	public void setEndereco(Endereco endereco) {
+		this.endereco = endereco;
+	}
+}

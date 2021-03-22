@@ -1,0 +1,33 @@
+package ativ_fix_comp_lucasdesousasantos;
+
+public class Fabrica {
+
+	public static void main(String[] args) {
+		Cliente cliente = new Cliente();
+		
+		cliente.getEndereco().setBairro("Jaqueline");
+		cliente.getEndereco().setRua("JAB");
+		cliente.getEndereco().setCep("242");
+		cliente.getEndereco().setCidade("BH");
+		cliente.getEndereco().setComplemento("N/A");
+		cliente.setCpf("061");
+		cliente.setEstadocivil("S");
+		cliente.setLogin("A");
+		cliente.setNome("Lucas");
+		cliente.setRg("MG");
+		cliente.setSenha("2a");
+		cliente.setTelefone("3454");
+		cliente.setSexo("M");
+		
+		System.out.println("Nome: " + cliente.getNome());
+		System.out.println("RG: " + cliente.getRg());
+		System.out.println("CPF: " + cliente.getCpf());
+		System.out.println("Login: " + cliente.getLogin());
+		System.out.println("Senha: " + cliente.getSenha());
+		System.out.println("Telefone: " + cliente.getTelefone());
+		System.out.println("Estado civil: " + cliente.getEstadocivil());
+		System.out.println("Sexo: " + cliente.getSexo());
+		System.out.println("Cidade: " + cliente.getEndereco());
+	}
+
+}

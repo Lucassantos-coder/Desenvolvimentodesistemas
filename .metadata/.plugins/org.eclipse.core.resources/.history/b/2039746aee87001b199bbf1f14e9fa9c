@@ -1,0 +1,28 @@
+package Main;
+
+public class Carro {
+	//private String Marca;
+	private String Ano;
+	//private String Modelo;
+	//private String Placa;
+	private String Cor;
+	//private Double Valor;
+	public String getAno() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	public String getCor() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	public void setCor(String string) {
+		// TODO Auto-generated method stub
+		
+	}
+	public void setAno(String string) {
+		// TODO Auto-generated method stub
+		
+	}
+	
+
+}

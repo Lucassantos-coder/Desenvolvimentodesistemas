@@ -1,0 +1,21 @@
+package ATIV_FIX_HERANCA_01_LUCASDESOUSASANTOS;
+
+public class Carro extends Veiculo {
+	private String Marca;	
+	private Double Valor;
+	
+	public void setMarca(String Marca) {
+		this.Marca = Marca;
+	}
+	public String getMarca() {
+		return Marca;
+	}
+	
+	public void setValor(Double Valor) {
+		this.Valor = Valor;
+	}
+	public Double getValor() {
+		return Valor;
+	}
+
+}

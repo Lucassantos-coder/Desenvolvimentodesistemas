@@ -1,0 +1,14 @@
+package ativ_fix_comp_lucasdesousasantos;
+
+public class Fabrica {
+
+	public static void main(String[] args) {
+		Pessoa pessoa = new Pessoa();
+		pessoa.getendereco().setBairro("Jaqueline");
+		pessoa.getendereco().setCep("242");
+		
+		System.out.println(pessoa);
+
+	}
+
+}
