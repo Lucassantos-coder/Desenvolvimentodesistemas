@@ -16,7 +16,7 @@ public static void main(String[] args) {
 		carro.setPlaca("abc1234");
 		carro.setMarca("BMW");
 		carro.setValor(2011.00);
-		carro.fabricarveiculo(carro);
+		/*carro.fabricarveiculo(carro);
 		moto.setCor("Azul");
 		moto.setAno("2011");
 		moto.setModelo("Ninja");
@@ -26,15 +26,10 @@ public static void main(String[] args) {
 		moto.fabricarveiculo(moto);
 		//Dados dos veículos cadastrados
 		carro.exibirveiculo();
-		System.out.println(" ");
-		moto.exibirveiculo();
+		moto.exibirveiculo();*/
 		
-		//Venda de veículos
 		carro.venderVeiculo(carro);
 		carro.exibirveiculo();
-		System.out.println(" ");
-		moto.venderVeiculo(moto);
-		moto.exibirveiculo();
 	}
 
 }

@@ -1,0 +1,11 @@
+package Ativ_fix_thread_lucasdesousasantos;
+
+public class Principal {
+
+	public static void main(String[] args) {
+		Sistema sis = new Sistema();
+		sis.setNome("Maria");
+		new Thread(sis).start();
+	}
+
+}

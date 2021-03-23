@@ -29,12 +29,8 @@ public static void main(String[] args) {
 		System.out.println(" ");
 		moto.exibirveiculo();
 		
-		//Venda de veículos
-		carro.venderVeiculo(carro);
-		carro.exibirveiculo();
-		System.out.println(" ");
-		moto.venderVeiculo(moto);
-		moto.exibirveiculo();
+		/*carro.venderVeiculo(carro);
+		carro.exibirveiculo();*/
 	}
 
 }

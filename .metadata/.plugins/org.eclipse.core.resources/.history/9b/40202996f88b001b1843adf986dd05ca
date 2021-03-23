@@ -45,7 +45,6 @@ public class Veiculo {
 	}
 	public void venderVeiculo(Veiculo veiculo){
 		listVeiculo.remove(veiculo);
-		System.out.println("Veicio "+Modelo+" foi removido");
 	}
 	
 	public void exibirveiculo() {
