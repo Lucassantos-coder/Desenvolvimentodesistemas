@@ -1,5 +1,7 @@
 package ATIV_SIM_02_LUCASDESOUSASANTOS;
 
+import java.util.ArrayList;
+
 public class Pessoa {
 	//Atributos
 	private String Nome;
@@ -75,8 +77,48 @@ public class Pessoa {
 		Complemento = complemento;
 	}
 	
+	//Criação da lista
+	ArrayList listPessoa = new ArrayList();
+	
+	//Cadastro de pessoas
+	public void Cadastropessoas(Pessoa pessoa) {
+		listPessoa.add(pessoa);
+		System.out.println("Cadasro realizado com sucesso!");
+	}
+	
 	//Exibição dos dados
 	public void Exibedados() {
-		
+		for(int i = 0; i < listPessoa.size(); i++) {
+			if(listPessoa.get(i) instanceof Cliente) {
+				Cliente cliente = new Cliente();
+				System.out.println("Nome: "+cliente.getNome());
+				System.out.println("CPF: "+cliente.getCpf());
+				System.out.println("RG: "+cliente.getRg());
+				System.out.println("Estado civil: "+cliente.getEstadocivil());
+				System.out.println("Sexo: "+cliente.getSexo());
+				System.out.println("Cidade: "+cliente.getCidade());
+				System.out.println("Bairro: "+cliente.getBairro());
+				System.out.println("Rua: "+cliente.getRua());
+				System.out.println("Cep: "+cliente.getCep());
+				System.out.println("Complemento:"+cliente.getComplemento());
+				System.out.println("Login: "+cliente.getLogin());
+				System.out.println("Senha: "+cliente.getSenha());
+			}else if(listPessoa.get(i) instanceof Funcionario) {
+				Funcionario funcionario = new Funcionario();
+				System.out.println("Nome: "+funcionario.getNome());
+				System.out.println("CPF: "+funcionario.getCpf());
+				System.out.println("RG: "+funcionario.getRg());
+				System.out.println("Estado civil: "+funcionario.getEstadocivil());
+				System.out.println("Sexo: "+funcionario.getSexo());
+				System.out.println("Cidade: "+funcionario.getCidade());
+				System.out.println("Bairro: "+funcionario.getBairro());
+				System.out.println("Rua: "+funcionario.getRua());
+				System.out.println("Cep: "+funcionario.getCep());
+				System.out.println("Complemento: "+funcionario.getComplemento());
+				System.out.println("Cargo: "+funcionario.getCargo());
+				System.out.println("Salario: "+funcionario.getSalario());
+				System.out.println("Turno: "+funcionario.getTurno());
+			}
+		}
 	}
 }
