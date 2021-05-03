@@ -1,0 +1,15 @@
+C:\Users\lucas\Desktop\SistemaSA\Sistema concecionária\bin\Debug\Sistema concecionária.exe.config
+C:\Users\lucas\Desktop\SistemaSA\Sistema concecionária\bin\Debug\Sistema concecionária.exe
+C:\Users\lucas\Desktop\SistemaSA\Sistema concecionária\bin\Debug\Sistema concecionária.pdb
+C:\Users\lucas\Desktop\SistemaSA\Sistema concecionária\obj\Debug\Sistema concecionária.csprojAssemblyReference.cache
+C:\Users\lucas\Desktop\SistemaSA\Sistema concecionária\obj\Debug\Sistema_concecionária.Principal.resources
+C:\Users\lucas\Desktop\SistemaSA\Sistema concecionária\obj\Debug\Sistema_concecionária.Properties.Resources.resources
+C:\Users\lucas\Desktop\SistemaSA\Sistema concecionária\obj\Debug\Sistema concecionária.csproj.GenerateResource.cache
+C:\Users\lucas\Desktop\SistemaSA\Sistema concecionária\obj\Debug\Sistema concecionária.csproj.CoreCompileInputs.cache
+C:\Users\lucas\Desktop\SistemaSA\Sistema concecionária\obj\Debug\Sistema concecionária.exe
+C:\Users\lucas\Desktop\SistemaSA\Sistema concecionária\obj\Debug\Sistema concecionária.pdb
+C:\Users\lucas\Desktop\SistemaSA\Sistema concecionária\obj\Debug\Sistema_concecionária.Cad_clientes.resources
+C:\Users\lucas\Desktop\SistemaSA\Sistema concecionária\obj\Debug\Sistema_concecionária.Cad_Funcionarios.resources
+C:\Users\lucas\Desktop\SistemaSA\Sistema concecionária\obj\Debug\Sistema_concecionária.Cad_pecas.resources
+C:\Users\lucas\Desktop\SistemaSA\Sistema concecionária\obj\Debug\Sistema_concecionária.Cad_veiculos.resources
+C:\Users\lucas\Desktop\SistemaSA\Sistema concecionária\obj\Debug\Sistema_concecionária.Vendas.resources
